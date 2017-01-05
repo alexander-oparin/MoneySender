@@ -21,6 +21,8 @@ class AppAsset extends AssetBundle
         'css/site.css',
     ];
     public $js = [
+        'https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js',
+        'js/money_sender.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
